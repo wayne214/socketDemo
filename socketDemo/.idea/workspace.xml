@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf79806-6d39-4bf9-9138-0757e476606f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wayne/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wayne/UDPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,17 +26,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wayne/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="270">
+              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#319#0" expanded="true" />
                 <element signature="e#560#561#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wayne/UDPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1028">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -81,6 +102,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/wayne/Main.java" />
         <option value="$PROJECT_DIR$/src/com/wayne/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/wayne/UDPServer.java" />
       </list>
     </option>
   </component>
@@ -125,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577172970179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577184196950" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.UDPServer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.wayne.Main" />
       <module name="socketDemo" />
@@ -163,12 +185,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wayne.UDPServer" />
+      <module name="socketDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wayne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Server" />
+      <item itemvalue="Application.UDPServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Main" />
       </list>
@@ -184,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577155838714</updated>
-      <workItem from="1577155842553" duration="7206000" />
+      <workItem from="1577155842553" duration="10886000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1577158448310</created>
@@ -193,11 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577158448310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="socket 多人聊天服务端">
+      <created>1577172992289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577172992289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7206000" />
+    <option name="totallyTimeSpent" value="10886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1416" y="-61" width="1400" height="1243" extended-state="0" />
@@ -239,7 +283,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="socket 多人聊天服务端" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket 多人聊天服务端" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/wayne/Main.java">
@@ -266,15 +311,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wayne/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="270">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#311#319#0" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wayne/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
